@@ -1,0 +1,14 @@
+.App {
+  margin: 10px 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .title {
+    margin: auto;
+  }
+  
+  .button {
+    margin: auto;
+  }
+}

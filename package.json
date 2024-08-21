@@ -1,0 +1,22 @@
+{
+  "name": "nodebootstraper",
+  "version": "5.0.0",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "^2.8.5",
+    "express": "*",
+    "method-override": "*",
+    "morgan": "*",
+    "pug": "*",
+    "serve-favicon": "*",
+    "stylus": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+  }
+}
